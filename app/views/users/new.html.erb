@@ -1,0 +1,24 @@
+<div class="depot-form">
+<% form_for(@user) do |f| %>
+  <%= f.error_messages %>
+
+  <fieldset>
+  <legend>ユーザの詳細情報入力</legend>
+
+  <div>
+    <%= f.label :name %>:
+    <%= f.text_field :name, :size => 40 %>
+  </div>
+  <div>
+    <%= f.label :user_password, 'パスワード' %>:
+    <%= f.password_field :password, :size => 40 %>
+  </div>
+  <div>
+    <%= f.label :user_password_confirmation, '確認' %>:
+    <%= f.password_field :password_confirmation, :size => 40 %>
+  </div>
+  <div>
+    <%= f.submit 'ユーザを追加する', :class => "submit" %>
+  </div>
+  </fieldset>
+<% end %>

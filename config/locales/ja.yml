@@ -1,0 +1,40 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+ja:
+
+  layout:
+    title:         "プラグマティック 本棚"
+    side:
+      home:        "ホーム"
+      questions:   "よくある質問"
+      news:        "ニュース"
+      contact:     "お問い合わせ"
+    cart:
+      title:       "カート"
+      button:
+        empty:     "カートを空にする"
+        checkout:  "チェックアウト"
+
+  main:
+    title:         "カタログ"
+    button:
+      add:         "カートに追加"
+
+  number:
+    currency:
+      format:
+        unit:      "円"
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format:    "%u%n"
+
+  checkout:
+    legend:        "あなたの詳細情報をご記入ください"
+    name:          "お名前"
+    address:       "ご住所"
+    email:         "Eメール"
+    pay_type:      "お支払い"
+    pay_prompt:    "お支払い方法を選択してください"
+    submit:        "注文する"
